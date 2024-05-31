@@ -13,7 +13,8 @@ public class CounterTest {
 		for(int i = 0; i <10; i++) {
 			testCounter.increment();
 		}
-		
+				
+		testCounter.reset();
 		
 		assertEquals(testCounter.getCount(), 0);
 	}
